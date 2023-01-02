@@ -108,15 +108,15 @@ nav{
     letter-spacing: 0.02em;
     font-weight: 800;
     color: var(--title-text-color);
-    display: block;
+    display: inline-block;
 }
 .nav-member{
     list-style-type: none;  
-    display: block;  
+    display: inline-block;  
     
 }
 .nav-list{
-    margin-left: 76px;
+    margin-left: 77px;
     
 }
 .nav-list li:not(:last-child){
@@ -251,6 +251,20 @@ nav{
 }
 .important-points li:not(:last-child){
     margin-right: 24px;
+}
+.important-points-card-icon{
+    width: 264px;
+    height: 112px;
+    background-color: var(--light-white-color);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 64px;
+    height: 64px;
 }
 .important-points-title{
     font-weight: 600;
@@ -446,7 +460,7 @@ list-style-type: none;
     letter-spacing: 0.02em;
     font-weight: 800;
    
-    display: block;
+    display: inline-block;
 }
 .contacts-link:hover{
     color: var(--active-color);
