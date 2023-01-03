@@ -56,6 +56,7 @@ h1,h2,h3,h4,h5,h6, ul, li, p {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
+    display: flex;
 }
 /*logo, contacts and nav*/
 .header{
@@ -189,7 +190,36 @@ nav{
     width: 264px;
     
 }
-
+.footer-socials{
+    margin-left: 120px;
+}
+.footer-socials-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--standard-white-color);
+    margin-bottom: 16px;
+    }
+    .footer-social-link-list{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    }
+    .footer-social-link{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;    
+    text-decoration: none;
+    }
  /*-------------index.html styles-------------*/
 /*banner*/
 .banner{
@@ -233,7 +263,7 @@ nav{
     cursor: pointer;
     width: 170px;
     height: 51px;
-   
+    
 }
 /*important-points index.html*/
 .important-points-section{
@@ -390,6 +420,22 @@ nav{
 }
 .customer-services-list{
     list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.customers-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--standard-white-color);
+    }
+.customers-icon{
+    width: 168px;
+    height: 88px;
+    fill: #8E8F99;
+    padding: 16px 32px;
+    border-radius: 4px;
+    outline: 1px solid #8E8F99;
 }
 /*-------------portfolio.html styles-------------*/
 /*section*/
@@ -465,7 +511,7 @@ list-style-type: none;
     padding-top: 32px;
     padding-bottom: 32px;
     gap: 8px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--accent-color);
     padding-left: 16px;
 }
 .image-title{
@@ -511,6 +557,16 @@ list-style-type: none;
 .social-link:hover{
     background: #404BBF;
 }
+.footer-social-link:hover{
+    background: #31D0AA;
+}
+.customers-link:focus .customers-icon,
+.customers-link:active .customers-icon,
+.customers-link:hover .customers-icon {
+    fill: var(--active-color);
+    outline: 1px solid var(--active-color);
+}
+
 .portfolio-button:active{
     color: var(--standard-white-color);
     background: var(--active-color);
