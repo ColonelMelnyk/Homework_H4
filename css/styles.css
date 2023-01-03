@@ -353,6 +353,44 @@ nav{
     border-radius: 4px;
     overflow: hidden;
 }
+/* social links in teamcards index.html */
+.social-link-list{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.social-list-member{
+   text-decoration: none;
+}
+.social-link{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--active-color);
+}
+/* Customer section index.html */
+.customer-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customer-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 72px;
+}
+.customer-services-list{
+    list-style-type: none;
+}
 /*-------------portfolio.html styles-------------*/
 /*section*/
 .portfolio{
@@ -469,6 +507,9 @@ list-style-type: none;
     background: var(--active-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 4px;
+}
+.social-link:hover{
+    background: #404BBF;
 }
 .portfolio-button:active{
     color: var(--standard-white-color);
