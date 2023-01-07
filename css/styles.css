@@ -435,7 +435,7 @@ nav{
     fill: #8E8F99;
     padding: 16px 32px;
     border-radius: 4px;
-    outline: 1px solid #8E8F99;
+    border: 1px solid #8E8F99;
 }
 /*-------------portfolio.html styles-------------*/
 /*section*/
@@ -566,7 +566,8 @@ list-style-type: none;
 .customers-link:active .customers-icon,
 .customers-link:hover .customers-icon {
     fill: var(--active-color);
-    outline: 1px solid var(--active-color);
+    border: 1px solid var(--active-color);
+    border-radius: 4px;
 }
 
 .portfolio-button:active{
